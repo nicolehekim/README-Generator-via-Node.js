@@ -79,7 +79,7 @@ async function init() {
     const answers = await inquirer.prompt(questions);
 
     let readmeInfo = generateMarkdown(answers);
-    writeToFile('README file completed', readmeInfo);
+    writeToFile('Completed README.md', readmeInfo);
 }
 
 // Function call to initialize app

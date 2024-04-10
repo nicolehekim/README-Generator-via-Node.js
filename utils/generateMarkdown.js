@@ -63,12 +63,18 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents:
-  -[Instruction for Installation]
-  -[Usage Information]
-  -[Guidelines]
-  -[Testing Instructions]
-  -[License]
-  -[Questions]
+  * Instruction for Installation
+
+  * Usage Information
+
+  * Guidelines
+
+  * Testing Instructions
+
+  * License
+
+  * Questions
+  
 
   ## Instruction for Installation:
   ${data.instruction}
